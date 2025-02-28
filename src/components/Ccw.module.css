@@ -1,0 +1,37 @@
+.ccw {
+    background-color: #FFFFFF;
+    padding: 50px 10%;
+    max-width: 1440px; 
+    margin: 0 auto;
+ }
+
+ .cards {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .card {
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* text-align: center; */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .ccw h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #282828;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    white-space: nowrap;
+  }
