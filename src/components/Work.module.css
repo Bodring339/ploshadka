@@ -1,0 +1,89 @@
+.work {
+    background-color: #FFFFFF;
+    padding: 50px 10%;
+    max-width: 1440px; 
+    margin: 0 auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .work h2 {
+      font-size: 48px;
+      font-weight: 500;
+      color: #282828;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+      /* white-space: nowrap; */
+    }
+    
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+    }
+    
+    .card {
+      background: #f5f5f5;
+      padding: 0px 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      width: 280px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      /* text-align: center; */
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .card h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #282828;
+      /* text-align: left; */
+      /* display: flex; */
+      width: 95%;
+      margin-bottom: 10px;
+    }
+    
+    .cardnumber {
+      position: absolute;
+      right: 10px;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 15px 0px;
+    }
+    
+    .card img {
+      width: 100%;
+      aspect-ratio: 2 / 1;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    
+    /* 🔹 Адаптация под планшеты (по 2 карточки в строке) */
+    @media (max-width: 1024px) {
+      .card {
+        width: calc(50% - 10px);
+      }
+    }
+    
+    /* 🔹 Адаптация под телефоны (по 1 карточке в строке) */
+    @media (max-width: 600px) {
+      .container {
+        align-items: center;
+        text-align: center;
+      }
+      .cards {
+        flex-direction: column;
+      }
+      .card {
+        width: 100%;
+      }
+    }
+    
