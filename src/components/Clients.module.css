@@ -14,10 +14,10 @@
   } */
   
   .clients h2 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 500;
     color: #282828;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     margin-bottom: 50px;
     /* white-space: nowrap; */
 

@@ -1,5 +1,5 @@
 .work {
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
     padding: 50px 10%;
     max-width: 1440px; 
     margin: 0 auto;
@@ -23,7 +23,7 @@
     }
     
     .card {
-      background: #f5f5f5;
+      background: #FFFFFF;
       padding: 0px 20px;
       border-radius: 10px;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -41,13 +41,18 @@
     }
     
     .card h3 {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 400;
       color: #282828;
+      text-transform: uppercase;
       /* text-align: left; */
       /* display: flex; */
       width: 95%;
       margin-bottom: 10px;
+    }
+
+    .p {
+        font-size: 18px;
     }
     
     .cardnumber {
@@ -55,15 +60,16 @@
       right: 10px;
       font-size: 18px;
       font-weight: 400;
-      padding: 15px 0px;
+      padding: 20px 0px;
     }
     
     .card img {
-      width: 100%;
-      aspect-ratio: 2 / 1;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 15px;
+      padding: 10%;
+      width: 80%;
+      /* aspect-ratio: 1 / 1; */
+      /* object-fit: cover; */
+      /* border-radius: 10px; */
+      /* margin-bottom: 15px; */
     }
     
     /* 🔹 Адаптация под планшеты (по 2 карточки в строке) */

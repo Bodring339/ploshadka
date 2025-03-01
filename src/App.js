@@ -5,12 +5,18 @@ import Ozer from "./components/Ozer";
 import Contacts from "./components/Сontacts";
 import Ccw from "./components/Ccw";
 import Work from "./components/Work";
+import Consult from "./components/Consult";
+import Header from "./components/Header"
+import Intro from "./components/Intro"
 
 
 function App() {
   return (
     <div>
+      <Header />
+      <Intro />
       <Ccw />
+      <Consult />
       <Work />
       <WhyUs />
       <Clients />
