@@ -9,7 +9,7 @@
 .header {
     position: relative;
     /* width: 100%; */
-    height: 60vh;
+    /* height: 100vh; */
     overflow: hidden;
     border-radius: 10px;
 }
@@ -18,14 +18,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 3px 40px;
     background: white;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
 }
 
@@ -41,8 +41,8 @@
 .link {
     text-decoration: none;
     color: black;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .icons {
@@ -58,7 +58,7 @@
 
 .hero {
     border-radius: 20px;
-    width: 1400px;
+    /* width: 1000px; */
     aspect-ratio: 1392 / 743;
     background-size: cover;
     background-position: center;
@@ -71,39 +71,78 @@
 }
 
 .priceCard {
+    justify-content: space-between;
     display: flex;
     align-items: center;
     background: white;
-    padding: 10px;
-    border-radius: 12px;
+    aspect-ratio: 488 / 118;
+    padding: 5px;
+    border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 280px;
+    width: 340px;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 50%;
 }
 
 .priceImage {
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
+    aspect-ratio: 256 / 102;
+    width: 170px;
+    /* height: 80px; */
+    border-radius: 3px;
     margin-right: 10px;
 }
 
 .priceText {
-    font-size: 14px;
+    font-size: 16px;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .title {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .subtitle {
     font-size: 16px;
     font-weight: 400;
-    opacity: 0.9;
 }
+
+.cards {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* width: 100%; */
+  }
+  
+  .card {
+    background: #F5F5F5;
+    padding: 0px;
+    border-radius: 5px;
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+    width: 240px;
+    aspect-ratio: 282/200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card h3 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .card p {
+    margin-top: -40px;
+    margin-bottom: 1-0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }

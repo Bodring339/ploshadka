@@ -1,0 +1,123 @@
+.types {
+    background-color: #FFFFFF;
+    padding: 50px 10%;
+    max-width: 1440px; 
+    margin: 0 auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .cards {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 22px;
+    width: 100%;
+  }
+
+  .card {
+    background: #F5F5F5;
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+    width: 200px;
+    /* position: relative; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* text-align: center; */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .cases h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #282828;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    white-space: nowrap;
+  }
+
+  .cases h3 {
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #282828;
+    margin-top: -40px;
+    margin-bottom: 50px;
+  }
+
+  .card h4 {
+    padding: 0px;
+    font-size:14px;
+    font-weight: 500;
+    color: #282828;
+    margin-bottom: 15px;
+  }
+
+  .tol {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    /* margin-top: auto; */
+  }
+
+  .card p {
+    margin-top: auto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    /* flex-grow: 1; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+  }
+
+  .card h5 {
+    margin-top: auto;
+    font-size: 12px;
+  }
+
+  .order {
+    background-color: #DB7125;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin-top: -20px, auto;
+    margin-bottom: 1px;
+  }
+  
+  .order:hover {
+    background-color: #DB7125;
+  }
+
+  /* 🔹 Адаптация под планшеты */
+  @media (max-width: 1024px) {
+    .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      width: 45%;
+    }
+  }
+  
+  /* 🔹 Адаптация под телефоны */
+  @media (max-width: 600px) {
+    .container {
+      align-items: center;
+      text-align: center;
+    }
+    .cards {
+      flex-direction: column;
+    }
+    .card {
+      width: 100%;
+    }
+  }
