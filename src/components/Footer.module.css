@@ -1,0 +1,37 @@
+.footer {
+    background-color: #F3F3F1;
+    padding: 50px 8%;
+    max-width: 1440px; 
+    margin: 0 auto;
+  }
+
+  .top {
+    display: flex;
+    justify-content: center ;
+  }
+
+  .left {
+    width: 550px;
+}
+
+  .center {
+    width: 300px;
+  }
+
+  .oppa:hover {
+    text-decoration: underline;
+  }
+
+  .right {
+    width: 300px;
+  }
+
+  .right a {
+    text-decoration: underline;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #FFFFFF;
+  }

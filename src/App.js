@@ -9,7 +9,8 @@ import Consult from "./components/Consult";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Stages from "./components/Stages";
-import Types from "./components/Types"
+import Types from "./components/Types";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Clients />
       <Ozer />
       <Contacts />
+      <Footer />
     </div>
   );
 }
